@@ -13,7 +13,7 @@ const browserCandidates = {
     '/usr/bin/chromium',
     '/usr/bin/chromium-browser',
     '/usr/bin/microsoft-edge'
-  }
+  ]
 };
 
 const candidates = browserCandidates[process.platform] || [];
